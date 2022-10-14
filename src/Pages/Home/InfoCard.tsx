@@ -1,15 +1,15 @@
 import React from "react";
 
 type InfoCardProps = {
-  img: string
-  title: string
-  description: string
-  bgClass: string
-}
+  img: string;
+  title: string;
+  description: string;
+  bgClass: string;
+};
 
 const InfoCard = (props: InfoCardProps) => {
   return (
-    <div className={`text-white shadow-xl card lg:card-side bg-base-100 ${props.bgClass}`}>
+    <div className={`text-white shadow-xl card lg:card-side ${props.bgClass}`}>
       <figure className="p-5">
         <img src={props.img} alt="Album" />
       </figure>
