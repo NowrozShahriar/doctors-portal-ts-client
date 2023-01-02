@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "./Banner";
 import Info from "./Info";
-import MakeAppoinment from "./MakeAppoinment";
+import MakeAppointment from "./MakeAppointment";
 import Services from "./Services";
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
       <Banner></Banner>
       <Info></Info>
       <Services></Services>
-      <MakeAppoinment></MakeAppoinment>
+      <MakeAppointment></MakeAppointment>
     </section>
   );
 };
