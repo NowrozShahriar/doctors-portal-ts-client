@@ -29,7 +29,7 @@ const Services = () => {
     },
   ];
   return (
-    <div>
+    <>
       <div className="my-24 text-center">
         <h3 className="text-lg font-bold uppercase text-secondary">
           Our Services
@@ -41,7 +41,7 @@ const Services = () => {
           <Service key={service._id} service={service}></Service>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

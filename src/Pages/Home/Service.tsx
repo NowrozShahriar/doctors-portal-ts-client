@@ -11,7 +11,7 @@ type ServiceProps = {
 
 const Service = (props: ServiceProps) => {
   return (
-    <div className="shadow-xl card text-accent bg-base-100">
+    <section className="shadow-xl card text-accent bg-base-100">
       <figure className="px-10 pt-10">
         <img src={props.service.img} alt="Shoes" className="rounded-xl" />
       </figure>
@@ -19,7 +19,7 @@ const Service = (props: ServiceProps) => {
         <h2 className="card-title">{props.service.title}</h2>
         <p>{props.service.description}</p>
       </div>
-    </div>
+    </section>
   );
 };
 

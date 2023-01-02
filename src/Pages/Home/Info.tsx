@@ -6,7 +6,7 @@ import phone from "../../assets/icons/phone.svg";
 
 const Info = () => {
   return (
-    <div className="grid grid-cols-1 gap-7 lg:grid-cols-3">
+    <section className="grid grid-cols-1 gap-7 lg:grid-cols-3">
       <InfoCard
         bgClass="bg-gradient-to-r from-secondary to-primary"
         img={clock}
@@ -25,7 +25,7 @@ const Info = () => {
         title="Contact us now"
         description="+000 123 456789"
       ></InfoCard>
-    </div>
+    </section>
   );
 };
 

@@ -1,11 +1,11 @@
 import React from "react";
 
 const About = () => {
-	return (
-		<div>
-			<h1>About Page</h1>
-		</div>
-	);
+  return (
+    <section>
+      <h1>About Page</h1>
+    </section>
+  );
 };
 
 export default About;
