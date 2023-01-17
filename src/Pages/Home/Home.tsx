@@ -6,7 +6,7 @@ import Services from "./Services";
 
 const Home = () => {
   return (
-    <section className="px-7">
+    <section className="mx-auto" style={{ maxWidth: 1920 }}>
       <Banner></Banner>
       <Info></Info>
       <Services></Services>

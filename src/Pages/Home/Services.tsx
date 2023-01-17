@@ -31,12 +31,12 @@ const Services = () => {
   return (
     <>
       <div className="my-24 text-center">
-        <h3 className="text-lg font-bold uppercase text-secondary">
+        <h3 className="my-2 text-xl font-bold uppercase text-secondary">
           Our Services
         </h3>
-        <h2 className="text-3xl text-accent">Services We Provide</h2>
+        <h2 className="my-2 text-4xl text-accent">Services We Provide</h2>
       </div>
-      <div className="grid grid-cols-1 justify-items-center gap-7 gird md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 px-7 justify-items-center gap-7 gird md:grid-cols-2 lg:grid-cols-3">
         {services.map((service) => (
           <Service key={service._id} service={service}></Service>
         ))}
